@@ -102,17 +102,17 @@ const GameBoard = () => {
             win = gameState[1].value;
         }
          if (gameState[2].value === gameState[5].value &&
-            gameState[5].value == gameState[8].value && gameState[2].value !=null
+            gameState[5].value === gameState[8].value && gameState[2].value !=null
         ) {
             win = gameState[2].value;
         }
         if (gameState[2].value === gameState[4].value &&
-            gameState[4].value == gameState[6].value && gameState[2].value !=null
+            gameState[4].value === gameState[6].value && gameState[2].value !=null
         ) {
             win = gameState[2].value;
         }
         if (gameState[0].value === gameState[4].value &&
-            gameState[4].value == gameState[8].value && gameState[0].value !=null
+            gameState[4].value === gameState[8].value && gameState[0].value !=null
         ) {
             win = gameState[0].value;
         }
